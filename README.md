@@ -80,7 +80,7 @@ The application expects input files containing Python data structures as they wo
 ### Python Objects
 The parser can handle Python object representations:
 ```python
-{'event_emitter': <gllm_core.event.event_emitter.EventEmitter object at 0x773679cded50>, 'data': 'some_value'}
+{'event_emitter': <MyObject object at 0x773679cded50>, 'data': 'some_value'}
 ```
 
 Objects like `<ClassName object at 0x...>` are automatically converted to their string representation for better readability.
